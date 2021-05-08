@@ -1,0 +1,17 @@
+[
+  {
+    "dest": "/articles/test-bidirectional-links",
+    "sourceSlug": "./content/articles/get-started-athens",
+    "sourceTitle": "Get started with Athens Research"
+  },
+  {
+    "dest": "/articles/get-started-athens",
+    "sourceSlug": "./content/articles/mdx-reference",
+    "sourceTitle": "My library of MDX components"
+  },
+  {
+    "dest": "/articles/get-started-athens",
+    "sourceSlug": "./content/articles/test-bidirectional-links",
+    "sourceTitle": "Testing bidirectional links"
+  }
+]

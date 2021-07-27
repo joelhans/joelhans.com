@@ -36,7 +36,8 @@ export default function PostLayout({ children, frontMatter, LinkMap }) {
                         className="block"
                         href={link.sourceSlug}
                       >
-                        {link.sourceTitle}
+                        <h4>{link.sourceTitle}</h4>
+                        <p>{link.sourceText}</p>
                       </CustomLink>
                     ))}
                   </div>

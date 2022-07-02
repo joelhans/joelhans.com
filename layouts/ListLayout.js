@@ -48,11 +48,25 @@ export default function ListLayout({ posts, title, summary }) {
         <div className="mt-16 mb-24">
           {Object.keys(groupedArticles).length === 0 && 'No articles found.'}
           {Object.keys(groupedArticles).map((date) => {
-            const datePretty = new Date(date)
+            const months = [
+              'January',
+              'February',
+              'March',
+              'April',
+              'May',
+              'June',
+              'July',
+              'August',
+              'September',
+              'October',
+              'November',
+              'December',
+            ]
+            const month = months[+date.split('-')[1] - 1]
             return (
               <div key={date} className="mb-8">
                 <h2 className="text-lg text-steel font-display font-bold uppercase mb-4">
-                  {datePretty.toLocaleString('default', { year: 'numeric', month: 'long' })}
+                  {month} {date.split('-')[0]}
                 </h2>
                 <ul>
                   {groupedArticles[date].map((article) => {

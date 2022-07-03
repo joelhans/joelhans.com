@@ -64,15 +64,15 @@ export default function ListLayout({ posts, title, summary }) {
             ]
             const month = months[+date.split('-')[1] - 1]
             return (
-              <div key={date} className="mb-8">
-                <h2 className="text-lg text-steel font-display font-bold uppercase mb-4">
+              <div key={date} className="mb-4 pb-4 border-b border-gray-200">
+                <h2 className="text-lg text-steel font-display font-bold uppercase mb-4 ">
                   {month} {date.split('-')[0]}
                 </h2>
                 <ul>
                   {groupedArticles[date].map((article) => {
                     const { slug, title, summary } = article
                     return (
-                      <li key={slug} className="mb-4">
+                      <li key={slug} className="mb-4 last:mb-0">
                         <CustomLink href={`/articles/${slug}`} className="group">
                           <h3 className="text-lg lg:text-xl font-display font-bold group-hover:text-sea mb-1 transition-all">
                             {title}

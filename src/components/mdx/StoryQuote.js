@@ -1,9 +1,9 @@
 const StoryQuote = ({ children, story }) => {
   return (
-    <div className="flex items-center w-full bg-sea bg-opacity-5 p-12 rounded">
+    <div className="flex items-center bg-sea bg-opacity-10 lg:-mx-8 p-8 rounded">
       <div className="!m-0">
-        <p className="text-3xl font-serif leading-relaxed !m-0 italic">{children}</p>
-        <p className="!mb-0">&mdash; &ldquo;{story}&rdquo;</p>
+        <div className="prose prose-lg lg:prose-2xl dark:prose-dark !m-0 italic">{children}</div>
+        {story && <p className="!mb-0">&mdash; &ldquo;{story}&rdquo;</p>}
       </div>
     </div>
   )

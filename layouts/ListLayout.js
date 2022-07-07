@@ -1,20 +1,19 @@
 import { useState } from 'react'
+var _ = require('lodash')
 import CustomLink from '@components/Link'
 import Tag from '@components/Tag'
-import siteMetdata from '@data/siteMetadata'
 import PageTitle from '@components/PageTitle'
-
-const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function ListLayout({ posts, title, summary }) {
   const [searchValue, setSearchValue] = useState('')
-  const filteredBlogPosts = posts.filter((frontMatter) => {
+  const filteredArticles = posts.filter((frontMatter) => {
     const searchContent = frontMatter.title + frontMatter.summary + frontMatter.tags.join(' ')
     return searchContent.toLowerCase().includes(searchValue.toLowerCase())
   })
 
-  // Detect the development environment.
-  const env = process.env.NODE_ENV
+  const groupedArticles = _.groupBy(filteredArticles, function (article) {
+    return article.publishedOn.substring(0, 7)
+  })
 
   return (
     <>
@@ -47,37 +46,48 @@ export default function ListLayout({ posts, title, summary }) {
           </div>
         </div>
         <div className="mt-16 mb-24">
-          <ul>
-            {!filteredBlogPosts.length && 'No articles found.'}
-            {filteredBlogPosts.map((frontMatter) => {
-              const { slug, draft, title, summary, tags } = frontMatter
-              return (
-                draft === false && (
-                  <li key={slug} className="block mb-16">
-                    <CustomLink href={`/articles/${slug}`}>
-                      <h3 className="text-xl lg:text-2xl font-display font-bold mb-2 hover:text-sea transition-all">
-                        {title}
-                      </h3>
-                    </CustomLink>
-                    <div className="flex flex-wrap">
-                      {tags.map((tag) => (
-                        <Tag key={tag} text={tag} />
-                      ))}
-                    </div>
-                    <p className="prose prose-md lg:prose-lg dark:prose-dark text-gray-500 dark:text-gray-400 mb-1">
-                      {summary}
-                    </p>
-                    <CustomLink
-                      href={`/articles/${slug}`}
-                      className="text-sm font-bold hover:text-sea transition-all"
-                    >
-                      Read more &rarr;
-                    </CustomLink>
-                  </li>
-                )
-              )
-            })}
-          </ul>
+          {Object.keys(groupedArticles).length === 0 && 'No articles found.'}
+          {Object.keys(groupedArticles).map((date) => {
+            const months = [
+              'January',
+              'February',
+              'March',
+              'April',
+              'May',
+              'June',
+              'July',
+              'August',
+              'September',
+              'October',
+              'November',
+              'December',
+            ]
+            const month = months[+date.split('-')[1] - 1]
+            return (
+              <div key={date} className="mb-4 pb-4 border-b border-gray-200">
+                <h2 className="text-lg text-steel font-display font-bold uppercase mb-4 ">
+                  {month} {date.split('-')[0]}
+                </h2>
+                <ul>
+                  {groupedArticles[date].map((article) => {
+                    const { slug, title, summary } = article
+                    return (
+                      <li key={slug} className="mb-4 last:mb-0">
+                        <CustomLink href={`/articles/${slug}`} className="group">
+                          <h3 className="text-lg lg:text-xl font-display font-bold group-hover:text-sea mb-1 transition-all">
+                            {title}
+                          </h3>
+                          <p className="prose dark:prose-dark text-gray-500 dark:text-gray-400">
+                            {summary}
+                          </p>
+                        </CustomLink>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            )
+          })}
         </div>
       </div>
     </>

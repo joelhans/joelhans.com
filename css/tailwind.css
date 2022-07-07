@@ -3,12 +3,10 @@
 @tailwind utilities;
 
 html {
+  height: 100%;
   font-size: 115%;
+  scroll-behavior: auto !important;
 }
-
-/* .prose {
-  max-width: 100%;
-} */
 
 .prose p > img[src*='icon/assets/'] {
   @apply inline-block m-0;

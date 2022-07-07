@@ -44,6 +44,14 @@ export default function PostLayout({ children, frontMatter }) {
         </header>
         <div className="mb-24">
           <div className="prose prose-md lg:prose-lg dark:prose-dark mr-auto">
+            {tags.indexOf('archive') !== 1 && (
+              <div className="flex items-center bg-sea bg-opacity-10 lg:-mx-8 px-8 py-4 rounded">
+                <p className="text-sm !mt-0 !mb-0">
+                  This piece was retrieved from an old archive of my online writing&mdash;there will
+                  likely be some rough edges!
+                </p>
+              </div>
+            )}
             <MDXLayoutRenderer mdxSource={children} frontMatter={frontMatter} />
             <footer className="mt-16">
               {tags.indexOf('To Mabel, To Ida') === -1 && (

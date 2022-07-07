@@ -54,6 +54,7 @@
     "husky": "^6.0.0",
     "inquirer": "^8.1.1",
     "lint-staged": "^11.2.0",
+    "lodash": "^4.17.21",
     "next-remote-watch": "^1.0.0",
     "prettier": "2.2.1"
   },

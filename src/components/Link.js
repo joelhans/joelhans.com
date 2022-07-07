@@ -7,7 +7,7 @@ const CustomLink = ({ href, ...rest }) => {
 
   if (isInternalLink) {
     return (
-      <Link href={href}>
+      <Link href={href} scroll={true}>
         <a {...rest} />
       </Link>
     )

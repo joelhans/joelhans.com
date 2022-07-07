@@ -45,7 +45,7 @@ export default function PostLayout({ children, frontMatter }) {
         <div className="mb-24">
           <div className="prose prose-md lg:prose-lg dark:prose-dark mr-auto">
             {tags.indexOf('archive') !== 1 && (
-              <div className="flex items-center !w-full bg-sea bg-opacity-10 p-4 mb-12 rounded">
+              <div className="flex items-center bg-sea bg-opacity-10 lg:-mx-8 px-8 py-4 rounded">
                 <p className="text-sm !mt-0 !mb-0">
                   This piece was retrieved from an old archive of my online writing&mdash;there will
                   likely be some rough edges!

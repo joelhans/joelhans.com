@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>j@joelhans.com (Joel Hans)</managingEditor>
       <webMaster>j@joelhans.com (Joel Hans)</webMaster>
-      <lastBuildDate>Tue, 05 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Invalid Date</lastBuildDate>
       <atom:link href="https://joelhans.com/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://joelhans.com/articles/a-home-for-the-princess</guid>
+    <title>A home for 'The Princess'</title>
+    <link>https://joelhans.com/articles/a-home-for-the-princess</link>
+    <description>My story, "The Princess on the Glass Hill Becoming," will be published with Crow & Cross Keys later this year—probably around December.</description>
+    <pubDate>Invalid Date</pubDate>
+    <author>j@joelhans.com (Joel Hans)</author>
+    <category>fiction</category>
+  </item>
+
   <item>
     <guid>https://joelhans.com/articles/new-piece-hex</guid>
     <title>New piece today: "Attn: Butchers & Locksmiths"</title>

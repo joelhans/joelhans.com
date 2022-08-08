@@ -23,10 +23,9 @@ export default function Fiction({ content }) {
       />
       <header className="mt-24">
         <PageTitle>{frontMatter.title}</PageTitle>
-        <div className="prose prose-md lg:prose-lg dark:prose-dark mt-6">
-          <p className="text-xl lg:text-2xl text-steel">
-            In love with the idea of having a{' '}
-            <CustomLink href="https://nownownow.com/">/now</CustomLink> page, so here's my version.
+        <div className="prose mt-6">
+          <p>
+            What's a <CustomLink href="https://nownownow.com/">/now page</CustomLink>?
           </p>
         </div>
       </header>

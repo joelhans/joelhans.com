@@ -1,10 +1,10 @@
-import CustomLink from '@components/Link'
-import { getSingleContent } from '@/lib/mdx'
-import { PageSeo } from '@components/SEO'
-import { BASE_CONTENT_PATH } from '@config/constants'
-import PageTitle from '@components/PageTitle'
 import siteMetadata from '@data/siteMetadata'
+import { BASE_CONTENT_PATH } from '@config/constants'
+import { getSingleContent } from '@lib/mdx'
+import CustomLink from '@components/Link'
 import { MDXLayoutRenderer } from '@components/MDXComponents'
+import PageTitle from '@components/PageTitle'
+import { PageSEO } from '@components/SEO'
 
 export async function getStaticProps() {
   const content = await getSingleContent(BASE_CONTENT_PATH, 'now')
@@ -16,10 +16,9 @@ export default function Fiction({ content }) {
 
   return (
     <>
-      <PageSeo
-        title={frontMatter.title}
+      <PageSEO
+        title={`${frontMatter.title} • ${siteMetadata.title}`}
         description={frontMatter.summary}
-        url={`${siteMetadata.siteUrl}/${frontMatter.slug}`}
       />
       <header className="mt-24">
         <PageTitle>{frontMatter.title}</PageTitle>

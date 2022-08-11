@@ -1,4 +1,4 @@
-import { PageSeo } from '@components/SEO'
+import { PageSEO } from '@components/SEO'
 import CustomLink from '@components/Link'
 import siteMetadata from '@data/siteMetadata'
 import Tag from '@components/Tag'
@@ -13,11 +13,7 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <>
-      <PageSeo
-        title={siteMetadata.title}
-        description={siteMetadata.description}
-        url={siteMetadata.siteUrl}
-      />
+      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="bg-green-100 w-full"></div>
 
       <div id="hero" className="pt-24 pb-16">

@@ -1,8 +1,8 @@
 import siteMetadata from '@data/siteMetadata'
-import ListLayout from '@/layouts/ListLayout'
-import { PageSeo } from '@components/SEO'
-import { getFrontMatter } from '@/lib/mdx'
 import { ARTICLES_CONTENT_PATH } from '@config/constants'
+import { getFrontMatter } from '@/lib/mdx'
+import ListLayout from '@layouts/ListLayout'
+import { PageSEO } from '@components/SEO'
 
 export async function getStaticProps() {
   const posts = await getFrontMatter(ARTICLES_CONTENT_PATH, true)
@@ -12,15 +12,14 @@ export async function getStaticProps() {
 export default function Posts({ posts }) {
   return (
     <>
-      <PageSeo
-        title={`Articles`}
-        description={`Updates about my work and thoughts about copywriting, open source, and any of the other disguises I wear from time to time.`}
-        url={`${siteMetadata.siteUrl}/articles`}
+      <PageSEO
+        title={`Articles • ${siteMetadata.title}`}
+        description={`Updates about my writing, from fiction to copy, and any of the other disguises I wear from time to time.`}
       />
       <ListLayout
         posts={posts}
         title="Articles"
-        summary="Updates about my work and thoughts about copywriting, open source, and any of the other disguises I wear from time to time."
+        summary="Updates about my writing, from fiction to copy, and any of the other disguises I wear from time to time."
       />
     </>
   )

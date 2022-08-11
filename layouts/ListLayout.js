@@ -1,5 +1,5 @@
 import { useState } from 'react'
-var _ = require('lodash')
+import _ from 'lodash'
 import CustomLink from '@components/Link'
 import Tag from '@components/Tag'
 import PageTitle from '@components/PageTitle'

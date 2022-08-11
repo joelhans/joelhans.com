@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import CustomLink from '@components/Link'
 import PageTitle from '@components/PageTitle'
-import { BlogSeo } from '@components/SEO'
+import { BlogSEO } from '@components/SEO'
 import Tag from '@components/Tag'
 import siteMetadata from '@data/siteMetadata'
 import { MDXLayoutRenderer } from '@components/MDXComponents'
@@ -26,7 +26,11 @@ export default function PostLayout({ children, frontMatter }) {
 
   return (
     <>
-      <BlogSeo url={`${siteMetadata.siteUrl}/articles/${frontMatter.slug}`} {...frontMatter} />
+      <BlogSEO
+        {...frontMatter}
+        url={`${siteMetadata.siteUrl}/articles/${slug}`}
+        title={`${title} • ${siteMetadata.title}`}
+      />
       <article>
         <header className="my-16 lg:my-24">
           <PageTitle>{title}</PageTitle>

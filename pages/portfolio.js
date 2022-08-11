@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import { getSingleContent } from '@/lib/mdx'
-import { PageSeo } from '@components/SEO'
+import { PageSEO } from '@components/SEO'
 import { BASE_CONTENT_PATH } from '@config/constants'
 import PageTitle from '@components/PageTitle'
-import siteMetadata from '@data/siteMetadata'
 import { MDXLayoutRenderer } from '@components/MDXComponents'
 
 export async function getStaticProps() {
@@ -16,11 +15,7 @@ export default function About({ content }) {
 
   return (
     <>
-      <PageSeo
-        title={frontMatter.title}
-        description={frontMatter.summary}
-        url={`${siteMetadata.siteUrl}/${frontMatter.slug}`}
-      />
+      <PageSEO title={frontMatter.title} description={frontMatter.summary} />
       <header className="flex flex-row flex-wrap md:space-x-6 md:flex-nowrap mt-24">
         <div>
           <PageTitle>{frontMatter.title}</PageTitle>

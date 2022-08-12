@@ -14,8 +14,6 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="bg-green-100 w-full"></div>
-
       <div id="hero" className="pt-24 pb-16">
         <div className="prose prose-md lg:prose-lg dark:prose-dark">
           <p className="text-xl lg:text-2xl text-steel">I'm a writer in Tucson, Arizona.</p>

@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>j@joelhans.com (Joel Hans)</managingEditor>
       <webMaster>j@joelhans.com (Joel Hans)</webMaster>
-      <lastBuildDate>Sat, 29 Oct 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 01 Apr 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://joelhans.com/index.xml" rel="self" type="application/rss+xml"/>
       
+      <item>
+        <guid>https://joelhans.com/articles/a-lively-2023</guid>
+        <title>A lively start to 2023</title>
+        <link>https://joelhans.com/articles/a-lively-2023</link>
+        <description>My writer's life has started out lively this year, with lots of publications and loads (maybe too much) ambition, but there's still an enormous weight of doubt.</description>
+        <pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate>
+        <author>j@joelhans.com (Joel Hans)</author>
+        <category>fiction</category>
+      </item>
+    
       <item>
         <guid>https://joelhans.com/articles/the-communion-begins</guid>
         <title>The communion begins with 'Beneath the Undergarden'</title>

@@ -20,10 +20,10 @@ export default function About({ content }) {
         title={`${frontMatter.title} • ${siteMetadata.title}`}
         description={frontMatter.summary}
       />
-      <header className="flex flex-row flex-wrap md:space-x-6 md:flex-nowrap mt-24">
+      {/* <header className="flex flex-row flex-wrap md:space-x-6 md:flex-nowrap mt-24">
         <PageTitle>Who am I?</PageTitle>
-      </header>
-      <div className="flex flex-row flex-wrap items-start mt-6">
+      </header> */}
+      <div className="flex flex-row flex-wrap items-start mt-24">
         <div className="prose prose-md lg:prose-lg dark:prose-dark mb-24">
           <MDXLayoutRenderer mdxSource={mdxSource} frontMatter={frontMatter} />
           <div className="mt-8">

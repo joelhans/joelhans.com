@@ -23,8 +23,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params: { slug } }) {
   const posts = await getFrontMatter(ARTICLES_CONTENT_PATH, false)
   const post = posts.filter((a) => a.slug == slug)
-  // Check whether the slug includes a date (`_`) and build the filePath if need be.
-  const filePath = slug.includes('_') ? post[0].publishedOn + '_' + slug : slug
+  const filePath = post[0].publishedOn + '_' + slug
   const content = await getSingleContent(ARTICLES_CONTENT_PATH, filePath)
 
   const rss = generateRss(posts)

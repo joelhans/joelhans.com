@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>j@joelhans.com (Joel Hans)</managingEditor>
       <webMaster>j@joelhans.com (Joel Hans)</webMaster>
-      <lastBuildDate>Sat, 01 Apr 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 08 May 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://joelhans.com/index.xml" rel="self" type="application/rss+xml"/>
       
+      <item>
+        <guid>https://joelhans.com/articles/a-hefty-forthcoming</guid>
+        <title>A hefty forthcoming</title>
+        <link>https://joelhans.com/articles/a-hefty-forthcoming</link>
+        <description>I don't think my Forthcoming fiction as ever been as robust as it is right now.</description>
+        <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+        <author>j@joelhans.com (Joel Hans)</author>
+        <category>fiction</category>
+      </item>
+    
       <item>
         <guid>https://joelhans.com/articles/a-lively-2023</guid>
         <title>A lively start to 2023</title>

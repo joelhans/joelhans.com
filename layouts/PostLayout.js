@@ -21,8 +21,8 @@ export default function PostLayout({ children, frontMatter }) {
 
   const date = updatedOn ? updatedOn : publishedOn
 
-  // Filter `LinkData` to only the links that reference this page as the destination.
-  const LinkRefs = LinkData.filter((link) => link.dest.includes(slug))
+  // Filter `LinkData` to only the links that reference this article as the destination.
+  const LinkRefs = LinkData.filter((link) => link.dest.includes(slug.split('_')[1]))
 
   return (
     <>
@@ -47,7 +47,7 @@ export default function PostLayout({ children, frontMatter }) {
           )}
         </header>
         <div className="mb-24">
-          <div className="prose prose-md lg:prose-lg dark:prose-dark mr-auto">
+          <div className="prose prose-md lg:prose-lg dark:prose-dark prose-a:font-bold prose-a:transition-all mr-auto">
             {tags.indexOf('archive') === 0 && (
               <div className="flex items-center bg-sea bg-opacity-10 lg:-mx-8 px-8 py-4 rounded">
                 <p className="text-sm !mt-0 !mb-0">

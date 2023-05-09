@@ -69,7 +69,7 @@ const root = process.cwd()
                     // Push to the `Links` array.
                     const link = {
                       dest: node.properties.href,
-                      src: filepath.replace(`${root}`, '').replace('content/', '').replace(/.(md|mdx)$/, ''),
+                      src: filepath.replace(`${root}`, '').replace('content/', '').replace(/articles\/.*_/, 'articles\/').replace(/.(md|mdx)$/, ''),
                       title: matter(source).data.title,
                       text: text.join(''),
                     }

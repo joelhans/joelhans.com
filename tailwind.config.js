@@ -36,7 +36,7 @@ module.exports = {
               color: theme('colors.steel'),
               textDecoration: 'none',
               transition: theme('transition.all'),
-              fontWeight: theme('font.semibold'),
+              fontWeight: theme('font.bold'),
               '&:hover': {
                 color: theme('colors.sea'),
               },

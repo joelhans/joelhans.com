@@ -1,21 +1,21 @@
 [
   {
+    "dest": "/articles/hummingbirds-anti-torpor-spartan",
+    "src": "/articles/hummingbirds-and-going-it-alone",
+    "title": "Hummingbirds and going it alone.",
+    "text": "This piece has since <strong>been published</strong>!"
+  },
+  {
+    "dest": "/articles/stupidly-simple-tip-copy/",
+    "src": "/articles/copywriting-cliches-tech",
+    "title": "27 tech copywriting clichés I'm completely over",
+    "text": "The deeper I get into this research, the more I start to recognize patterns in the ways tech companies talk about themselves. And, unfortunately, it's quite common for these companies to <strong>copy rather than steal</strong>."
+  },
+  {
     "dest": "/articles/understand-your-value/",
-    "src": "/articles/taglines-slogans",
-    "title": "Taglines vs. slogans: What's the difference?",
-    "text": "A good tagline is more than a witty phrase, although that's important, too. It also needs to identify core company values, key differentiators, and <strong>value propositions</strong>—everything that makes your brand worthy of someone's time or money. The best taglines not only establish the brand's benefits but also attract the right type of customer."
-  },
-  {
-    "dest": "/articles/get-started-athens/",
-    "src": "/articles/creative-burnout",
-    "title": "How I deal with creative burnout",
-    "text": "A complete tell-all will have to wait, but here's a <strong>hint</strong>."
-  },
-  {
-    "dest": "/articles/understand-your-value",
-    "src": "/articles/creative-burnout",
-    "title": "How I deal with creative burnout",
-    "text": "When I work with a client, they get the full force of my creativity in the form of a service or project, priced\naccording to the <strong>value it'll bring</strong> their business. It's never more complicated than\nthat. I'm not an employee, I'm not their part-time CMO. It's a creative version of\n<strong>timeboxing</strong>. I can make micro-adjustments to make sure that there's always a\nbalance between the creativity I give away and what I keep for myself."
+    "src": "/articles/copywriting-cliches-tech",
+    "title": "27 tech copywriting clichés I'm completely over",
+    "text": "Better. We can do better than better. It means something different to everyone. Be more specific about the <strong>value</strong> your product provides, or your customer won't know what you do well."
   },
   {
     "dest": "/articles/taglines-slogans",
@@ -36,46 +36,52 @@
     "text": "Copying is taking, wholesale, something you wish you had done. It's exactly why we have\n<strong>clichés</strong> Stealing is understanding the underlying structure, the seemingly unseen\nmagic that makes good copy happen, and applying it to your work."
   },
   {
+    "dest": "/articles/understand-your-value/",
+    "src": "/articles/taglines-slogans",
+    "title": "Taglines vs. slogans: What's the difference?",
+    "text": "A good tagline is more than a witty phrase, although that's important, too. It also needs to identify core company values, key differentiators, and <strong>value propositions</strong>—everything that makes your brand worthy of someone's time or money. The best taglines not only establish the brand's benefits but also attract the right type of customer."
+  },
+  {
+    "dest": "/articles/get-started-athens/",
+    "src": "/articles/creative-burnout",
+    "title": "How I deal with creative burnout",
+    "text": "A complete tell-all will have to wait, but here's a <strong>hint</strong>."
+  },
+  {
+    "dest": "/articles/understand-your-value",
+    "src": "/articles/creative-burnout",
+    "title": "How I deal with creative burnout",
+    "text": "When I work with a client, they get the full force of my creativity in the form of a service or project, priced\naccording to the <strong>value it'll bring</strong> their business. It's never more complicated than\nthat. I'm not an employee, I'm not their part-time CMO. It's a creative version of\n<strong>timeboxing</strong>. I can make micro-adjustments to make sure that there's always a\nbalance between the creativity I give away and what I keep for myself."
+  },
+  {
     "dest": "/articles/copywriting-checklist/",
     "src": "/articles/hand-clarity",
     "title": "Remembering clarity by breaking my hand",
     "text": "Ask yourself this question if a piece of writing, no matter the purpose, starts to drift or lose steam. If the answer is different than what you're currently writing, start over and head in the <strong>new, efficient direction</strong>."
   },
   {
-    "dest": "/articles/stupidly-simple-tip-copy/",
-    "src": "/articles/copywriting-cliches-tech",
-    "title": "27 tech copywriting clichés I'm completely over",
-    "text": "The deeper I get into this research, the more I start to recognize patterns in the ways tech companies talk about themselves. And, unfortunately, it's quite common for these companies to <strong>copy rather than steal</strong>."
+    "dest": "/articles/grammarly/",
+    "src": "/articles/copywriting-checklist",
+    "title": "A no-nonsense copywriting checklist for clarity and impact",
+    "text": "I'm a <strong>fan of Grammarly</strong>. If you're interested in a free alternative, be sure to check out <strong>Hemingway</strong>."
   },
   {
-    "dest": "/articles/understand-your-value/",
-    "src": "/articles/copywriting-cliches-tech",
-    "title": "27 tech copywriting clichés I'm completely over",
-    "text": "Better. We can do better than better. It means something different to everyone. Be more specific about the <strong>value</strong> your product provides, or your customer won't know what you do well."
+    "dest": "/articles/copywriting-cliches-tech/",
+    "src": "/articles/copywriting-checklist",
+    "title": "A no-nonsense copywriting checklist for clarity and impact",
+    "text": "I even wrote an <strong>entire piece</strong> about tech clichés new and old."
+  },
+  {
+    "dest": "/articles/a-hefty-forthcoming",
+    "src": "/articles/a-quiet-forthcoming",
+    "title": "A quiet forthcoming",
+    "text": "about a <strong>hefty forthcoming</strong>, and now, things have swung back to quite the opposite."
   },
   {
     "dest": "/articles/a-home-for-the-princess/",
     "src": "/articles/ready-for-some-meal-prep",
     "title": "Ready for some 'Meal Prep'?",
     "text": "Between this and a <strong>home for the princess</strong>, it's been a pretty phenomenal week for\nmy writing."
-  },
-  {
-    "dest": "/now#november-2022",
-    "src": "/articles/the-communion-begins",
-    "title": "The communion begins with 'Beneath the Undergarden'",
-    "text": "Aside from this being such a kind, thoughtful compliment, it’s migrated back to me at such a perfect time—a\nmoment of transition and doubt, as I both change course and wait, somewhat patiently, for the email(s) that will change\neverything. I’ve put the novel project—THE STAR CASSETTE—away for now, as I <strong>wait to hear\nback</strong> on the small barrages of query emails I’ve been sending out, and have returned my focus\nto shorter work and projects."
-  },
-  {
-    "dest": "/articles/ready-for-some-meal-prep",
-    "src": "/articles/the-communion-begins",
-    "title": "The communion begins with 'Beneath the Undergarden'",
-    "text": "A few are on their way later this year, like <strong>“Meal Prep”</strong>,\n“Feeding the Oscars”, and “The Reception”, with others still searching for their homes."
-  },
-  {
-    "dest": "/article/a-hefty-forthcoming",
-    "src": "/articles/on-return-the-journal",
-    "title": "A new fairy tale in The Journal!",
-    "text": "My flash fiction story, <strong>\"On Return from the Land Where One Never Dies,\"</strong> is\nlive now in <strong>issue 46.3</strong> of The Journal. I submitted to this literary\nmagazine a lot back in the 2013-2016 era of my writing, so it's a publication I've been after for a long time. Lovely\nfor it to finally happen, and for me to move something out of the <strong>forthcoming column</strong> and\ninto the published space."
   },
   {
     "dest": "/articles/how-to-start-writing",
@@ -90,6 +96,18 @@
     "text": "I've journaled on paper, then in Obsidian, then in Notion, then in <strong>Athens</strong>, and back to\nObsidian again. But we're not talking about technology here. We're talking about the value of note-taking and why I've\nfound learn-logging to be far more effective."
   },
   {
+    "dest": "/now#november-2022",
+    "src": "/articles/the-communion-begins",
+    "title": "The communion begins with 'Beneath the Undergarden'",
+    "text": "Aside from this being such a kind, thoughtful compliment, it’s migrated back to me at such a perfect time—a\nmoment of transition and doubt, as I both change course and wait, somewhat patiently, for the email(s) that will change\neverything. I’ve put the novel project—THE STAR CASSETTE—away for now, as I <strong>wait to hear\nback</strong> on the small barrages of query emails I’ve been sending out, and have returned my focus\nto shorter work and projects."
+  },
+  {
+    "dest": "/articles/ready-for-some-meal-prep",
+    "src": "/articles/the-communion-begins",
+    "title": "The communion begins with 'Beneath the Undergarden'",
+    "text": "A few are on their way later this year, like <strong>“Meal Prep”</strong>,\n“Feeding the Oscars”, and “The Reception”, with others still searching for their homes."
+  },
+  {
     "dest": "/fiction#forthcoming",
     "src": "/articles/a-hefty-forthcoming",
     "title": "A hefty forthcoming",
@@ -102,21 +120,9 @@
     "text": "After writing about how <strong>lively 2023 has been for my fiction</strong>, I've gotten more acceptances\nfrom Gone Lawn, Peatsmoke, and Cotton Xenomorph! It's been a lovely remedy for the odd fear that I had a month or\ntwo ago: all my work would get published and I'd have nothing on the horizon again. I'm safe now—at least\nthrough summer."
   },
   {
-    "dest": "/articles/hummingbirds-anti-torpor-spartan",
-    "src": "/articles/hummingbirds-and-going-it-alone",
-    "title": "Hummingbirds and going it alone.",
-    "text": "This piece has since <strong>been published</strong>!"
-  },
-  {
-    "dest": "/articles/grammarly/",
-    "src": "/articles/copywriting-checklist",
-    "title": "A no-nonsense copywriting checklist for clarity and impact",
-    "text": "I'm a <strong>fan of Grammarly</strong>. If you're interested in a free alternative, be sure to check out <strong>Hemingway</strong>."
-  },
-  {
-    "dest": "/articles/copywriting-cliches-tech/",
-    "src": "/articles/copywriting-checklist",
-    "title": "A no-nonsense copywriting checklist for clarity and impact",
-    "text": "I even wrote an <strong>entire piece</strong> about tech clichés new and old."
+    "dest": "/articles/a-hefty-forthcoming",
+    "src": "/articles/on-return-the-journal",
+    "title": "A new fairy tale in The Journal!",
+    "text": "My flash fiction story, <strong>\"On Return from the Land Where One Never Dies,\"</strong> is\nlive now in <strong>issue 46.3</strong> of The Journal. I submitted to this literary\nmagazine a lot back in the 2013-2016 era of my writing, so it's a publication I've been after for a long time. Lovely\nfor it to finally happen, and for me to move something out of the <strong>forthcoming column</strong>\nand into the published space."
   }
 ]
